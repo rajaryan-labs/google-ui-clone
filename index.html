@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Google Clone</title>
+    <meta name="description" content="A non-functional UI clone of Google's homepage, built for educational and portfolio purposes only. Not affiliated with Google." />
+    <title>Google UI Clone - Portfolio Demo</title>
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   </head>
@@ -20,28 +21,32 @@
         <div class="hidden sm:flex space-x-4">
           <a class="text-gray-900 hover:underline" href="#">Gmail</a>
           <a class="text-gray-900 hover:underline" href="#">Images</a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="#000000"
-          >
-            <path
-              d="M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm80-120h400L544-400H416L280-240Zm-80 40h560L520-492v-268h-80v268L200-200Zm280-280Z"
-            />
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="#000000"
-          >
-            <path
-              d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z"
-            />
-          </svg>
+          <button aria-label="Google Labs" class="p-1 hover:bg-gray-100 rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#000000"
+            >
+              <path
+                d="M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0-17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm80-120h400L544-400H416L280-240Zm-80 40h560L520-492v-268h-80v268L200-200Zm280-280Z"
+              />
+            </svg>
+          </button>
+          <button aria-label="Google Apps" class="p-1 hover:bg-gray-100 rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#000000"
+            >
+              <path
+                d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z"
+              />
+            </svg>
+          </button>
 
           <img
             src="./rajpic.png"
@@ -70,7 +75,9 @@
         <div class="relative">
           <input
             type="text"
-            class="border border-gray-300 bg-white w-full rounded-full h-[52px] py-3 px-5 shadow-lg hover:shadow-slate-300 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+            placeholder="Search Google or type a URL"
+            aria-label="Search"
+            class="border border-gray-300 bg-white w-full rounded-full h-[52px] py-3 px-12 shadow-lg hover:shadow-slate-300 focus:ring-1 focus:ring-blue-500 focus:outline-none"
           />
           <svg
             class="absolute left-3 top-5"
@@ -123,27 +130,24 @@
         </button>
       </div>
 
-      <div class="flex justify-between text-[16px] mt-10">
-        <div class="flex p-4 text-center justify-start"></div>
-        <div class="flex p-4 text-center justify-start">
-          <div class="flex space-x-2 font-thin">
-            <span>Google offered in:</span>
-            <a class="text-blue-500 hover:underline" href="#">हिन्दी</a>
-            <a class="text-blue-500 hover:underline" href="#"> বাংলা</a>
-            <a class="text-blue-500 hover:underline" href="#">తెలుగు</a>
-            <a class="text-blue-500 hover:underline" href="#"> मराठी </a>
-            <a class="text-blue-500 hover:underline" href="#"> தமிழ்</a>
-            <a class="text-blue-500 hover:underline" href="#"> ગુજરાતી</a>
-            <a class="text-blue-500 hover:underline" href="#"> ಕನ್ನಡ</a>
-            <a class="text-blue-500 hover:underline" href="#"> മലയാളം</a>
-            <a class="text-blue-500 hover:underline" href="#"> ਪੰਜਾਬੀ</a>
-          </div>
+      <div class="flex justify-center text-[16px] mt-10">
+        <div class="flex flex-wrap justify-center gap-2 font-thin px-4">
+          <span>Google offered in:</span>
+          <a class="text-blue-500 hover:underline" href="#">हिन्दी</a>
+          <a class="text-blue-500 hover:underline" href="#">বাংলা</a>
+          <a class="text-blue-500 hover:underline" href="#">తెలుగు</a>
+          <a class="text-blue-500 hover:underline" href="#">मराठी</a>
+          <a class="text-blue-500 hover:underline" href="#">தமிழ்</a>
+          <a class="text-blue-500 hover:underline" href="#">ગુજરાતી</a>
+          <a class="text-blue-500 hover:underline" href="#">ಕನ್ನಡ</a>
+          <a class="text-blue-500 hover:underline" href="#">മലയാളം</a>
+          <a class="text-blue-500 hover:underline" href="#">ਪੰਜਾਬੀ</a>
         </div>
       </div>
     </main>
 
     <footer
-      class="bg-gray-100 bottom-0 w-full h-24 text-gray-700 text-sm mt-auto"
+      class="bg-gray-100 bottom-0 w-full text-gray-700 text-sm mt-auto"
     >
       <div>
         <div class="border-b border-gray-400 px-8 py-2">India</div>
@@ -152,17 +156,17 @@
           <ul
             class="px-12 py-3 flex flex-wrap space-x-3 sm:space-x-5 text-xs sm:text-sm"
           >
-            <li><a href="" class="hover:underline">Advertising</a></li>
-            <li><a href="" class="hover:underline">Business</a></li>
-            <li><a href="" class="hover:underline">How Search works</a></li>
+            <li><a href="#" class="hover:underline">Advertising</a></li>
+            <li><a href="#" class="hover:underline">Business</a></li>
+            <li><a href="#" class="hover:underline">How Search works</a></li>
           </ul>
 
           <ul
             class="px-12 py-3 flex flex-wrap space-x-3 sm:space-x-5 text-xs sm:text-sm"
           >
-            <li><a href="" class="hover:underline">Privacy</a></li>
-            <li><a href="" class="hover:underline">Terms</a></li>
-            <li><a href="" class="hover:underline">Settings</a></li>
+            <li><a href="#" class="hover:underline">Privacy</a></li>
+            <li><a href="#" class="hover:underline">Terms</a></li>
+            <li><a href="#" class="hover:underline">Settings</a></li>
           </ul>
         </div>
       </div>
